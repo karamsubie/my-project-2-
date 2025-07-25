@@ -1,0 +1,255 @@
+
+
+.container{
+    background-color: rgb(19, 3, 84);
+    color: #eee;
+     
+}
+.navbar-list{
+    list-style: none;
+
+} 
+a{
+   color:#eee; 
+   text-decoration: none;
+}
+
+.navbar-item{
+    display: inline-block;
+    width: 8rem;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.navbar-item:hover{
+    background-color: aqua;
+    transition: 0.3s;
+}
+
+.navbar-link{
+    text-decoration: none;
+    display: block;
+}
+
+@media( max-width: 650px ){
+    .navbar-item{
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+.card-section {
+  display: flex;
+  justify-content: center; /* جعل العناصر افقية */
+  gap: 0;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  margin: 30px;
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden; /* مسح الزوائد(البارزة)*/
+  text-align: center;
+  
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+  border: 5px solid black;
+  border-radius: 15px;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-content p {
+  font-size: 18px;
+  margin: 10px ;
+    
+}
+
+.join-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+ 
+}
+
+.join-btn:hover {
+  background-color: #45a049;
+}
+
+/* ⭐ دعم الجوال */
+@media (max-width: 768px) {
+  .card-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  }
+  .card {
+    width: 90%;
+  } 
+
+
+.video-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  direction: rtl;
+  padding: 20px;
+}
+
+.video-card {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 15px;
+}
+
+.video-img {
+  width: 100%;
+  border-radius: 8px;
+  border: 2px solid #000;
+}
+
+.video-description {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.watch-btn {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.watch-btn:hover {
+  background-color: #388e3c;
+}
+
+
+
+
+
+
+
+.video-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+  direction: rtl;
+}
+
+.video-box {
+  width: 160px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  padding: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.video-thumb {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.video-title {
+  font-size: 14px;
+  margin: 8px 0;
+}
+
+.video-btn {
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  font-size: 13px;
+  border-radius: 5px;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.video-btn:hover {
+  background-color: #388e3c;
+}
+
+
+
+
+
+
+
+.video-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px;
+  max-width: 600px;
+  margin: auto;
+  direction: rtl;
+}
+
+.video-row {
+  display: flex;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.thumb {
+  width: 120px;
+  height: auto;
+  object-fit: cover;
+  border-left: 2px solid #4CAF50;
+}
+
+.video-info {
+  padding: 10px;
+  flex-grow: 1;
+}
+
+.video-title {
+  margin: 0 0 8px;
+  font-size: 15px;
+}
+
+.video-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 6px 12px;
+  font-size: 13px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.video-btn:hover {
+  background-color: #388e3c;
+}

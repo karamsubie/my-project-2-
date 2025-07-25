@@ -1,0 +1,104 @@
+
+.container{
+    background-color: rgb(19, 3, 84);
+    color: #eee;
+    
+}
+.navbar-list{
+    list-style: none;
+
+} 
+a{
+   color:#eee; 
+   text-decoration: none;
+}
+
+.navbar-item{
+    display: inline-block;
+    width: 8rem;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.navbar-item:hover{
+    background-color: aqua;
+    transition: 0.3s;
+}
+
+.navbar-link{
+    text-decoration: none;
+    display: block;
+}
+
+@media( max-width: 650px ){
+    .navbar-item{
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+
+h1{
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 100px;
+    background-color: aqua;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin: 30px;
+    padding: 20px;
+}
+
+
+.video-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding: 10px;
+  max-width: 600px;
+  direction: rtl;
+}
+
+.video-row {
+  display: flex;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.thumb {
+  width: 80px; 
+  height: 50px;
+  height: auto;
+  object-fit: cover;
+  border-left: 2px solid #4CAF50;
+}
+
+.video-info {
+  padding: 10px;
+  flex-grow: 1;
+  
+}
+
+.video-title {
+  margin: 0 0 8px;
+  font-size: 15px;
+}
+
+.video-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 6px 12px;
+  font-size: 13px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.video-btn:hover {
+  background-color: #388e3c;
+}

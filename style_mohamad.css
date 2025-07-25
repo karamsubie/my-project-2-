@@ -1,0 +1,80 @@
+body{
+    background-color: #eee;
+}
+
+h1{
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+    background-color: aqua;
+    border: 5px solid black;
+    border-radius: 100px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+h2{
+    text-align: center;
+  margin: 30px auto 25px auto; /* auto يوسّط تلقائياً */
+  padding: 20px;
+  border: 15px solid rgb(19, 3, 84);
+  border-radius: 5px;
+  font-size: 22px;
+  background-color: #45a049;
+  max-width: 80%; /* يحدّد عرض العنوان */
+  color: #eee;
+}
+
+
+.container{
+    background-color: rgb(19, 3, 84);
+    color: #eee;
+    
+}
+.navbar-list{
+    list-style: none;
+
+}
+a{ 
+   color:#eee; 
+   text-decoration: none;
+}
+
+.navbar-item{
+    display: inline-block;
+    width: 8rem;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.navbar-item:hover{
+    background-color: aqua;
+    transition: 0.3s;
+}
+
+.navbar-link{
+    text-decoration: none;
+    display: block;
+}
+
+@media( max-width: 650px ){
+    .navbar-item{
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+footer{
+    a{
+         color: rgb(19, 3, 84);
+    }
+    text-align: center;
+}
+
+.social-icons a:hover{
+  color: rgb(117, 225, 255);
+  transition: 0.5s;
+}
